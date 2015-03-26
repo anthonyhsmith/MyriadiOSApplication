@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0361E2E1ABD37300087E759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0361E2D1ABD37300087E759 /* AppDelegate.swift */; };
+		C0361E301ABD37300087E759 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0361E2F1ABD37300087E759 /* TableViewController.swift */; };
+		C0361E331ABD37300087E759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0361E311ABD37300087E759 /* Main.storyboard */; };
+		C0361E351ABD37300087E759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0361E341ABD37300087E759 /* Images.xcassets */; };
+		C0361E381ABD37300087E759 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0361E361ABD37300087E759 /* LaunchScreen.xib */; };
+		C0361E441ABD37300087E759 /* MyriadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0361E431ABD37300087E759 /* MyriadTests.swift */; };
+		C0361E5D1ABD381E0087E759 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0361E5C1ABD381E0087E759 /* SwiftyJSON.swift */; };
+		C0AC03E01ABDDFF000E283F3 /* Kingdom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC03DF1ABDDFF000E283F3 /* Kingdom.swift */; };
+		C0AC03E21ABDE03700E283F3 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC03E11ABDE03700E283F3 /* Quest.swift */; };
+		C0BBFDB21AC2752C002E5C48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BBFDB11AC2752C002E5C48 /* LoginViewController.swift */; };
+		C0BBFDB51AC28F21002E5C48 /* LoginSave.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0BBFDB31AC28F21002E5C48 /* LoginSave.xcdatamodeld */; };
+		C0CE8BD71AC4018700F48E71 /* QuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE8BD61AC4018700F48E71 /* QuestsViewController.swift */; };
+		C0E397F01AC3CFC400202A2D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E397EF1AC3CFC400202A2D /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0361E3E1ABD37300087E759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0361E201ABD37300087E759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0361E271ABD37300087E759;
+			remoteInfo = Myriad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0361E281ABD37300087E759 /* Myriad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myriad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0361E2C1ABD37300087E759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0361E2D1ABD37300087E759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0361E2F1ABD37300087E759 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C0361E321ABD37300087E759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0361E341ABD37300087E759 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0361E371ABD37300087E759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0361E3D1ABD37300087E759 /* MyriadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyriadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0361E421ABD37300087E759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0361E431ABD37300087E759 /* MyriadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyriadTests.swift; sourceTree = "<group>"; };
+		C0361E5C1ABD381E0087E759 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
+		C0AC03DF1ABDDFF000E283F3 /* Kingdom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingdom.swift; sourceTree = "<group>"; };
+		C0AC03E11ABDE03700E283F3 /* Quest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		C0BBFDB11AC2752C002E5C48 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C0BBFDB41AC28F21002E5C48 /* LoginSave.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginSave.xcdatamodel; sourceTree = "<group>"; };
+		C0BBFDB61AC29705002E5C48 /* Myriad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Myriad-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0CE8BD61AC4018700F48E71 /* QuestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestsViewController.swift; sourceTree = "<group>"; };
+		C0E397EF1AC3CFC400202A2D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Myriad/User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0361E251ABD37300087E759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0361E3A1ABD37300087E759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0361E1F1ABD37300087E759 = {
+			isa = PBXGroup;
+			children = (
+				C0E397EF1AC3CFC400202A2D /* User.swift */,
+				C0361E2A1ABD37300087E759 /* Myriad */,
+				C0361E401ABD37300087E759 /* MyriadTests */,
+				C0361E291ABD37300087E759 /* Products */,
+				C0BBFDB61AC29705002E5C48 /* Myriad-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		C0361E291ABD37300087E759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0361E281ABD37300087E759 /* Myriad.app */,
+				C0361E3D1ABD37300087E759 /* MyriadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0361E2A1ABD37300087E759 /* Myriad */ = {
+			isa = PBXGroup;
+			children = (
+				C0BBFDB11AC2752C002E5C48 /* LoginViewController.swift */,
+				C0BBFDB31AC28F21002E5C48 /* LoginSave.xcdatamodeld */,
+				C0361E5C1ABD381E0087E759 /* SwiftyJSON.swift */,
+				C0361E2D1ABD37300087E759 /* AppDelegate.swift */,
+				C0361E2F1ABD37300087E759 /* TableViewController.swift */,
+				C0AC03DF1ABDDFF000E283F3 /* Kingdom.swift */,
+				C0AC03E11ABDE03700E283F3 /* Quest.swift */,
+				C0361E311ABD37300087E759 /* Main.storyboard */,
+				C0CE8BD61AC4018700F48E71 /* QuestsViewController.swift */,
+				C0361E341ABD37300087E759 /* Images.xcassets */,
+				C0361E361ABD37300087E759 /* LaunchScreen.xib */,
+				C0361E2B1ABD37300087E759 /* Supporting Files */,
+			);
+			path = Myriad;
+			sourceTree = "<group>";
+		};
+		C0361E2B1ABD37300087E759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0361E2C1ABD37300087E759 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0361E401ABD37300087E759 /* MyriadTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0361E431ABD37300087E759 /* MyriadTests.swift */,
+				C0361E411ABD37300087E759 /* Supporting Files */,
+			);
+			path = MyriadTests;
+			sourceTree = "<group>";
+		};
+		C0361E411ABD37300087E759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0361E421ABD37300087E759 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0361E271ABD37300087E759 /* Myriad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0361E471ABD37300087E759 /* Build configuration list for PBXNativeTarget "Myriad" */;
+			buildPhases = (
+				C0361E241ABD37300087E759 /* Sources */,
+				C0361E251ABD37300087E759 /* Frameworks */,
+				C0361E261ABD37300087E759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myriad;
+			productName = Myriad;
+			productReference = C0361E281ABD37300087E759 /* Myriad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0361E3C1ABD37300087E759 /* MyriadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0361E4A1ABD37300087E759 /* Build configuration list for PBXNativeTarget "MyriadTests" */;
+			buildPhases = (
+				C0361E391ABD37300087E759 /* Sources */,
+				C0361E3A1ABD37300087E759 /* Frameworks */,
+				C0361E3B1ABD37300087E759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0361E3F1ABD37300087E759 /* PBXTargetDependency */,
+			);
+			name = MyriadTests;
+			productName = MyriadTests;
+			productReference = C0361E3D1ABD37300087E759 /* MyriadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0361E201ABD37300087E759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Anthony Smith";
+				TargetAttributes = {
+					C0361E271ABD37300087E759 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C0361E3C1ABD37300087E759 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C0361E271ABD37300087E759;
+					};
+				};
+			};
+			buildConfigurationList = C0361E231ABD37300087E759 /* Build configuration list for PBXProject "Myriad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0361E1F1ABD37300087E759;
+			productRefGroup = C0361E291ABD37300087E759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0361E271ABD37300087E759 /* Myriad */,
+				C0361E3C1ABD37300087E759 /* MyriadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0361E261ABD37300087E759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0361E331ABD37300087E759 /* Main.storyboard in Resources */,
+				C0361E381ABD37300087E759 /* LaunchScreen.xib in Resources */,
+				C0361E351ABD37300087E759 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0361E3B1ABD37300087E759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0361E241ABD37300087E759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BBFDB21AC2752C002E5C48 /* LoginViewController.swift in Sources */,
+				C0AC03E21ABDE03700E283F3 /* Quest.swift in Sources */,
+				C0361E5D1ABD381E0087E759 /* SwiftyJSON.swift in Sources */,
+				C0CE8BD71AC4018700F48E71 /* QuestsViewController.swift in Sources */,
+				C0AC03E01ABDDFF000E283F3 /* Kingdom.swift in Sources */,
+				C0E397F01AC3CFC400202A2D /* User.swift in Sources */,
+				C0361E301ABD37300087E759 /* TableViewController.swift in Sources */,
+				C0361E2E1ABD37300087E759 /* AppDelegate.swift in Sources */,
+				C0BBFDB51AC28F21002E5C48 /* LoginSave.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0361E391ABD37300087E759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0361E441ABD37300087E759 /* MyriadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0361E3F1ABD37300087E759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0361E271ABD37300087E759 /* Myriad */;
+			targetProxy = C0361E3E1ABD37300087E759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0361E311ABD37300087E759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0361E321ABD37300087E759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0361E361ABD37300087E759 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0361E371ABD37300087E759 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0361E451ABD37300087E759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0361E461ABD37300087E759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0361E481ABD37300087E759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Myriad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Myriad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0361E491ABD37300087E759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Myriad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Myriad-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C0361E4B1ABD37300087E759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyriadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myriad.app/Myriad";
+			};
+			name = Debug;
+		};
+		C0361E4C1ABD37300087E759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyriadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myriad.app/Myriad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0361E231ABD37300087E759 /* Build configuration list for PBXProject "Myriad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0361E451ABD37300087E759 /* Debug */,
+				C0361E461ABD37300087E759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0361E471ABD37300087E759 /* Build configuration list for PBXNativeTarget "Myriad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0361E481ABD37300087E759 /* Debug */,
+				C0361E491ABD37300087E759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0361E4A1ABD37300087E759 /* Build configuration list for PBXNativeTarget "MyriadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0361E4B1ABD37300087E759 /* Debug */,
+				C0361E4C1ABD37300087E759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0BBFDB31AC28F21002E5C48 /* LoginSave.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0BBFDB41AC28F21002E5C48 /* LoginSave.xcdatamodel */,
+			);
+			currentVersion = C0BBFDB41AC28F21002E5C48 /* LoginSave.xcdatamodel */;
+			path = LoginSave.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0361E201ABD37300087E759 /* Project object */;
+}
